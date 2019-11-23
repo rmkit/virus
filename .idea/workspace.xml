@@ -2,29 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b254da1-ffd8-4a6a-8b17-b929e59afa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exe/virus" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/virus.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/virus/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/virus_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/virus.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/App/App/App-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examples/App/App/File.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/virus/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/App/App.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/App/App.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/App/App.xcodeproj/xcuserdata/xiongzenghui.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/App/App.xcodeproj/xcuserdata/xiongzenghui.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/App/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/App/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/App/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/App/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/App/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/App/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/App/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/App/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/virus" beforeDir="false" afterPath="$PROJECT_DIR$/bin/virus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/virus.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/virus.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574440418193</updated>
       <workItem from="1574440421141" duration="128000" />
-      <workItem from="1574494092990" duration="89000" />
+      <workItem from="1574494092990" duration="9927000" />
     </task>
     <servers />
   </component>

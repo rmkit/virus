@@ -1,0 +1,13 @@
+{
+	"AFNetworking": {
+		"path": "/Users/xiongzenghui/Desktop/virus/Examples/App/AFNetworking-3.2.1"
+	},
+	"FMDB": {
+		"git": "https://github.com/ccgus/fmdb.git",
+		"tag": "v2.7"
+	},
+	"GBDeviceInfo": {
+		"git": "https://github.com/lmirosevic/GBDeviceInfo.git",
+		"commit": "770da18"
+	}
+}

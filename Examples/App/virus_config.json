@@ -1,0 +1,29 @@
+{
+	"virus_files": [
+    "Virusfiles/**/*.rb"
+  ],
+  "virus_dev_pods": "Virusfiles/virus_dev_pods.json",
+	"binary_xcode_version": {
+		"xcode10.2": "v1.0",
+		"xcode11.0": "v2.0",
+		"default": "v2.0"
+	},
+	"ignore_pods": [
+		"ZHMiddlewareModuleMap",
+		"Nimble",
+		"Quick",
+		"RxAtomic",
+		"RxTest",
+		"RxBlocking",
+		"Mockingjay",
+		"URITemplate",
+		"SwiftLint",
+		"FirebaseAnalytics",
+		"FirebaseCore",
+		"FirebaseCoreDiagnostics",
+		"FirebaseCoreDiagnosticsInterop",
+		"FirebaseInstanceID",
+		"GoogleAppMeasurement",
+		"nanopb"
+	]
+}

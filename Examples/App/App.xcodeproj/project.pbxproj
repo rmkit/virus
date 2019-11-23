@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1FE7A217D7AC8193A160A9EB /* libPods-App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F29FCDE6E040555F5FD40C7 /* libPods-App.a */; };
+		2190BFA123892B6000C76173 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2190BFA023892B6000C76173 /* File.swift */; };
 		21D882362388320300694E36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D882352388320300694E36 /* AppDelegate.m */; };
 		21D882392388320300694E36 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D882382388320300694E36 /* SceneDelegate.m */; };
 		21D8823C2388320300694E36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D8823B2388320300694E36 /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2190BF9F23892B6000C76173 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
+		2190BFA023892B6000C76173 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		21D882312388320300694E36 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D882342388320300694E36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		21D882352388320300694E36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				21D882422388320400694E36 /* LaunchScreen.storyboard */,
 				21D882452388320400694E36 /* Info.plist */,
 				21D882462388320400694E36 /* main.m */,
+				2190BFA023892B6000C76173 /* File.swift */,
+				2190BF9F23892B6000C76173 /* App-Bridging-Header.h */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -89,7 +94,6 @@
 				B9FF730169B0A339E818FC3F /* Pods-App.debug.xcconfig */,
 				BC14497EB067C6E1CDE744D6 /* Pods-App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,6 +137,7 @@
 				TargetAttributes = {
 					21D882302388320300694E36 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -197,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2190BFA123892B6000C76173 /* File.swift in Sources */,
 				21D8823C2388320300694E36 /* ViewController.m in Sources */,
 				21D882362388320300694E36 /* AppDelegate.m in Sources */,
 				21D882472388320400694E36 /* main.m in Sources */,
@@ -341,6 +347,7 @@
 			baseConfigurationReference = B9FF730169B0A339E818FC3F /* Pods-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,6 +356,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.ios.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "App/App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -358,6 +368,7 @@
 			baseConfigurationReference = BC14497EB067C6E1CDE744D6 /* Pods-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,6 +377,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhihu.ios.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "App/App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
